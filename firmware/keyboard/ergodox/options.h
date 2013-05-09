@@ -31,10 +31,10 @@
 // ----------------------------------------------------------------------------
 
 // --- if the diode cathode is towards the square solder pad
-#define  OPT__TEENSY__DRIVE_ROWS     0
-#define  OPT__TEENSY__DRIVE_COLUMNS  1
-#define  OPT__MCP23018__DRIVE_ROWS     0
-#define  OPT__MCP23018__DRIVE_COLUMNS  1
+#define  OPT__TEENSY__DRIVE_ROWS     1
+#define  OPT__TEENSY__DRIVE_COLUMNS  0
+#define  OPT__MCP23018__DRIVE_ROWS     1
+#define  OPT__MCP23018__DRIVE_COLUMNS  0
 // ............................................................................
 // --- if the diode cathode is towards the circular solder pad
 // #define  OPT__TEENSY__DRIVE_ROWS     1
@@ -64,7 +64,7 @@
 // firmware/keyboard
 // ----------------------------------------------------------------------------
 
-#define  OPT__KB__ROWS     6
+#define  OPT__KB__ROWS     4
 #define  OPT__KB__COLUMNS  14
 
 
