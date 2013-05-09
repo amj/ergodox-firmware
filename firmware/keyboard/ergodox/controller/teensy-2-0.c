@@ -23,7 +23,7 @@
     #error "Expecting different CPU frequency"
 #endif
 
-#if OPT__KB__ROWS != 6 || OPT__KB__COLUMNS != 14
+#if OPT__KB__ROWS != 4 || OPT__KB__COLUMNS != 14
 	#error "Expecting different keyboard dimensions"
 #endif
 
@@ -91,8 +91,6 @@
 #define  ROW_1  F, 6
 #define  ROW_2  F, 5
 #define  ROW_3  F, 4
-#define  ROW_4  F, 1
-#define  ROW_5  F, 0
 
 // --- columns
 #define  COLUMN_7  B, 0
@@ -136,9 +134,7 @@
         teensypin_write(register, operation, ROW_0);    \
         teensypin_write(register, operation, ROW_1);    \
         teensypin_write(register, operation, ROW_2);    \
-        teensypin_write(register, operation, ROW_3);    \
-        teensypin_write(register, operation, ROW_4);    \
-        teensypin_write(register, operation, ROW_5); }  \
+        teensypin_write(register, operation, ROW_3);}   \
     while(0)
 
 #define  teensypin_write_all_column(register, operation)    \
@@ -165,8 +161,6 @@
         matrix[0x1][0x##column] = ! teensypin_read(ROW_1);  \
         matrix[0x2][0x##column] = ! teensypin_read(ROW_2);  \
         matrix[0x3][0x##column] = ! teensypin_read(ROW_3);  \
-        matrix[0x4][0x##column] = ! teensypin_read(ROW_4);  \
-        matrix[0x5][0x##column] = ! teensypin_read(ROW_5);  \
         /* set column hi-Z (set as input) */                \
         teensypin_write(DDR, CLEAR, COLUMN_##column);       \
     } while(0)
@@ -250,8 +244,6 @@ uint8_t teensy__update_matrix(bool matrix[OPT__KB__ROWS][OPT__KB__COLUMNS]) {
         update_columns_for_row(matrix, 1);
         update_columns_for_row(matrix, 2);
         update_columns_for_row(matrix, 3);
-        update_columns_for_row(matrix, 4);
-        update_columns_for_row(matrix, 5);
     #elif OPT__TEENSY__DRIVE_COLUMNS
         update_rows_for_column(matrix, 7);
         update_rows_for_column(matrix, 8);

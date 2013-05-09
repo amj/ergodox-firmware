@@ -18,7 +18,7 @@
 
 // ----------------------------------------------------------------------------
 
-#if OPT__KB__ROWS != 6 || OPT__KB__COLUMNS != 14
+#if OPT__KB__ROWS != 4 || OPT__KB__COLUMNS != 14
     #error "Expecting different keyboard dimensions"
 #endif
 
@@ -155,7 +155,7 @@ uint8_t mcp23018__update_matrix(bool matrix[OPT__KB__ROWS][OPT__KB__COLUMNS]) {
     // if there was an error
     if (ret) {
         // clear our part of the matrix
-        for (uint8_t row=0; row<=5; row++)
+        for (uint8_t row=0; row<=3; row++)
             for (uint8_t col=0; col<=6; col++)
                 matrix[row][col] = 0;
 
@@ -165,7 +165,7 @@ uint8_t mcp23018__update_matrix(bool matrix[OPT__KB__ROWS][OPT__KB__COLUMNS]) {
     // update our part of the matrix ..........................................
 
     #if OPT__MCP23018__DRIVE_ROWS
-        for (uint8_t row=0; row<=5; row++) {
+        for (uint8_t row=0; row<=3; row++) {
             // set active row low  : 0
             // set other rows hi-Z : 1
             twi__start();
@@ -216,8 +216,8 @@ uint8_t mcp23018__update_matrix(bool matrix[OPT__KB__ROWS][OPT__KB__COLUMNS]) {
             twi__stop();
 
             // update matrix
-            for (uint8_t row=0; row<=5; row++) {
-                matrix[row][col] = !( data & (1<<(5-row)) );
+            for (uint8_t row=0; row<=3; row++) {
+                matrix[row][col] = !( data & (1<<(3-row)) );
             }
         }
 

@@ -128,7 +128,7 @@ all: $(TARGET).hex $(TARGET).eep
 clean:
 	@echo
 	@echo '--- cleaning ---'
-	git clean -dX  # remove ignored files and directories
+	git clean -dfX  # remove ignored files and directories
 
 # -----------------------------------------------------------------------------
 

@@ -74,12 +74,12 @@ static _layout_t _layout = {
        K,    nop,
 // left hand ...... ......... ......... ......... ......... ......... .........
      tab,        q,        w,        e,        r,        t,   lpu1l1,
-           bkslash,        a,        s,        d,        f,        g,
+                 a,        s,        d,        f,        g,  bkslash,
 shL2kcap,        z,        x,        c,        v,        b, lpupo1l1,
                                   guiL,    grave,  bkslash,   arrowL,  
 // right hand ..... ......... ......... ......... ......... ......... .........
              brktL,        y,        u,        i,        o,        p,    brktR,
-                           h,        j,        k,        l,  semicol,    quote,
+             quote,        h,        j,        k,        l,  semicol,
           lpupo1l1,        n,        m,    comma,   period,    slash, shR2kcap,
             arrowL,   arrowD,   arrowU,   arrowR 
    ),

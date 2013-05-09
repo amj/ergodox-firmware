@@ -54,10 +54,10 @@
             na,                                                                                                 \
                                                                                                                 \
             /* left hand, spatial positions */                                                                  \
-            k30,k31,k32,k33,k34,k35,k36,                                                                        \
-                k21,k22,k23,k24,k25,k26,                                                                        \
-            k10,k11,k12,k13,k14,k15,k16,                                                                        \
-                        k00,k01,k02,k03,                                                                        \
+            k36,k35,k34,k33,k32,k31,k30,                                                                        \
+                k25,k24,k23,k22,k21,k20,                                                                        \
+            k16,k15,k14,k13,k12,k11,k10,                                                                        \
+                        k03,k02,k01,k00,                                                                        \
                                                                                                                 \
             /* right hand, spatial positions */                                                                 \
                 k37,k38,k39,k3A,k3B,k3C,k3D,                                                                    \
@@ -66,10 +66,10 @@
                 k07,k08,k09,k0A)                                                                                \
                                                                                                                 \
     /* matrix positions */                                                                                      \
-    {{ M(k00),M(k01),M(k02),M(k03),M( na),M( na),M( na), M(k07),M(k08),M(k09),M(k0A),M( na),M( na),M( na) },    \
-     { M(k10),M(k11),M(k12),M(k13),M(k14),M(k15),M(k16), M(k17),M(k18),M(k19),M(k1A),M(k1B),M(k1C),M(k1D) },    \
-     { M( na),M(k21),M(k22),M(k23),M(k24),M(k25),M(k26), M(k27),M(k28),M(k29),M(k2A),M(k2B),M(k2C),M( na) },    \
-     { M(k30),M(k31),M(k32),M(k33),M(k34),M(k35),M(k36), M(k37),M(k38),M(k39),M(k3A),M(k3B),M(k3C),M(k3D) }}
+    {{ M(k07),M(k08),M(k09),M(k0A),M( na),M( na),M( na), M(k00),M(k01),M(k02),M(k03),M( na),M( na),M( na) },    \
+     { M(k17),M(k18),M(k19),M(k1A),M(k1B),M(k1C),M(k1D), M(k10),M(k11),M(k12),M(k13),M(k14),M(k15),M(k16) },    \
+     { M(k27),M(k28),M(k29),M(k2A),M(k2B),M(k2C),M( na), M(k20),M(k21),M(k22),M(k23),M(k24),M(k25),M( na) },    \
+     { M(k37),M(k38),M(k39),M(k3A),M(k3B),M(k3C),M(k3D), M(k30),M(k31),M(k32),M(k33),M(k34),M(k35),M(k36) }}
 
 
 // ----------------------------------------------------------------------------
