@@ -74,14 +74,14 @@ static _layout_t _layout = {
        K,    nop,
 // left hand ...... ......... ......... ......... ......... ......... .........
      tab,        q,        w,        e,        r,        t,   lpu1l1,
- bkslash,        a,        s,        d,        f,        g,
+           bkslash,        a,        s,        d,        f,        g,
 shL2kcap,        z,        x,        c,        v,        b, lpupo1l1,
                                   guiL,    grave,  bkslash,   arrowL,  
 // right hand ..... ......... ......... ......... ......... ......... .........
              brktL,        y,        u,        i,        o,        p,    brktR,
                            h,        j,        k,        l,  semicol,    quote,
           lpupo1l1,        n,        m,    comma,   period,    slash, shR2kcap,
-            arrowL,   arrowD,   arrowU,   arrowR, 
+            arrowL,   arrowD,   arrowU,   arrowR 
    ),
 
 // ............................................................................
@@ -98,7 +98,7 @@ shL2kcap,        z,        x,        c,        v,        b, lpupo1l1,
             transp,      nop,  undersc, lessThan, grtrThan,   dollar,  volumeU,
            bkslash,      kp1,   parenL,   parenR,    equal,  volumeD,
           lpupo2l2, asterisk,      kp2,      kp3,      kp4,      kp5,     mute,
-            transp,   transp,   transp,   transp,
+            transp,   transp,   transp,   transp
   ),
 
 // ............................................................................
@@ -115,7 +115,7 @@ shL2kcap,        z,        x,        c,        v,        b, lpupo1l1,
                nop,      nop,      nop,      nop,      nop,      nop,      nop,
                nop,      nop,      nop,      nop,      nop,      nop,
                nop,      nop,      nop,      nop,      nop,      nop,      nop,
-                                   nop,      nop,      nop,      nop,
+               nop,      nop,      nop,      nop
      ),
 
 // ............................................................................
@@ -132,7 +132,7 @@ shL2kcap,        z,        x,        c,        v,        b, lpupo1l1,
             numPop,    equal,      kp7,      kp8,      kp9,    kpSub,   transp,
              kpMul,    kpDiv,      kp4,      kp5,      kp6,    kpAdd,   
             transp,   transp,      kp1,      kp2,      kp3,  kpEnter,   transp,
-            transp,   period,  kpEnter,      kp0,
+            transp,   period,  kpEnter,      kp0
   ),
 
 // ............................................................................
