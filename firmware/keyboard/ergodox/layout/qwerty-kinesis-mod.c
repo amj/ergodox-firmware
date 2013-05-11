@@ -75,13 +75,13 @@ static _layout_t _layout = {
 // left hand ...... ......... ......... ......... ......... ......... .........
      tab,        q,        w,        e,        r,        t,   lpu1l1,
                  a,        s,        d,        f,        g,  bkslash,
-shL2kcap,        z,        x,        c,        v,        b, lpupo1l1,
-                                  guiL,    grave,  bkslash,   arrowL,  
+shL2kcap,        z,        x,        c,        v,        b,     altL,
+                                  guiL, lpupo1l1,    space,    ctrlL,  
 // right hand ..... ......... ......... ......... ......... ......... .........
-             brktL,        y,        u,        i,        o,        p,    brktR,
-             quote,        h,        j,        k,        l,  semicol,
-          lpupo1l1,        n,        m,    comma,   period,    slash, shR2kcap,
-            arrowL,   arrowD,   arrowU,   arrowR 
+                                                                 esc,        y,        u,        i,        o,        p,       bs,
+                                                               quote,        h,        j,        k,        l,  semicol,
+                                                            lpupo2l2,        n,        m,    comma,   period,    slash, shR2kcap,
+                                                                altR,    space,    ctrlR,    enter
    ),
 
 // ............................................................................
@@ -90,15 +90,15 @@ shL2kcap,        z,        x,        c,        v,        b, lpupo1l1,
 // macro, unused,
        K,    nop,
 // left hand ...... ......... ......... ......... ......... ......... .........
-  transp,   braceL,   braceR,    brktL,    brktR,      nop,   lpo1l1,
-            transp,  semicol,    slash,     dash,      kp0,    colon,
-  transp,      kp6,      kp7,      kp8,      kp9,     plus, lpupo2l2,
+   tilde,   exclam,       at,    pound,   dollar,  percent,   lpo1l1,
+            braceL,   braceR,    brktL,    brktR,  undersc,    grave,
+  transp,        1,        2,        3,        4,        5, lpupo2l2,
                                 transp,   transp,   transp,   transp,   
 // right hand ..... ......... ......... ......... ......... ......... .........
-            transp,      nop,  undersc, lessThan, grtrThan,   dollar,  volumeU,
-           bkslash,      kp1,   parenL,   parenR,    equal,  volumeD,
-          lpupo2l2, asterisk,      kp2,      kp3,      kp4,      kp5,     mute,
-            transp,   transp,   transp,   transp
+                                                              transp,    caret,     amp , asterisk,     dash,    equal,  volumeU,
+                                                               brktL,    brktR,   parenL,   parenR,  undersc,     plus,
+                                                            lpupo2l2, asterisk,      kp2,      kp3,      kp4,      kp5,  volumeD,
+                                                              transp,   transp,   transp,   transp
   ),
 
 // ............................................................................
@@ -107,15 +107,15 @@ shL2kcap,        z,        x,        c,        v,        b, lpupo1l1,
 // macro, unused,
        K,    nop,
 // left hand ...... ......... ......... ......... ......... ......... .........
-   btldr,      nop,      nop,      nop,      nop,      nop,      nop,
-     nop,      nop,      nop,      nop,      nop,      nop,
-     nop,      nop,      nop,      nop,      nop,      nop,      nop,
-                                   nop,      nop,      nop,      nop,
+   btldr,      nop,     home,   arrowU,     end,    pageU,      esc,
+               nop,   arrowL,   arrowD,  arrowR,    pageD,   lpu3l3,
+  transp,       F1,       F2,       F3,      F4,       F5,      nop,
+                                transp,  transp,   transp,   transp,
 // right hand ..... ......... ......... ......... ......... ......... .........
-               nop,      nop,      nop,      nop,      nop,      nop,      nop,
-               nop,      nop,      nop,      nop,      nop,      nop,
-               nop,      nop,      nop,      nop,      nop,      nop,      nop,
-               nop,      nop,      nop,      nop
+                                                             transp,     home,    pageD,    pageU,      end,      nop,      nop,
+                                                                nop,   arrowL,   arrowD,   arrowU,   arrowR,      nop,
+                                                                nop,       F6,       F7,       F8,       F9,      F10,   transp,
+                                                             transp,   transp,   transp,   transp
      ),
 
 // ............................................................................
@@ -125,7 +125,7 @@ shL2kcap,        z,        x,        c,        v,        b, lpupo1l1,
        K,    nop,
 // left hand ...... ......... ......... ......... ......... ......... .........
   transp,   transp,   transp,   transp,   transp,   transp,   transp,
-  transp,   transp,   transp,   transp,   transp,   transp,
+            transp,   transp,   transp,   transp,   transp,   lpo3l3,
   transp,   transp,   transp,   transp,   transp,   transp,   transp,
                                    ins,   transp,   transp,   transp,
 // right hand ..... ......... ......... ......... ......... ......... .........
