@@ -81,7 +81,7 @@ shL2kcap,        z,        x,        c,        v,        b,     altL,
                                                                  esc,        y,        u,        i,        o,        p,       bs,
                                                                quote,        h,        j,        k,        l,  semicol,
                                                             lpupo2l2,        n,        m,    comma,   period,    slash, shR2kcap,
-                                                                altR,    space,    ctrlR,    enter
+                                                                altR,    space,     guiR,    enter
    ),
 
 // ............................................................................
@@ -97,7 +97,7 @@ shL2kcap,        z,        x,        c,        v,        b,     altL,
 // right hand ..... ......... ......... ......... ......... ......... .........
                                                               transp,    caret,     amp , asterisk,     dash,    equal,  volumeU,
                                                                brktL,    brktR,   parenL,   parenR,  undersc,     plus,
-                                                            lpupo2l2, asterisk,      kp2,      kp3,      kp4,      kp5,  volumeD,
+                                                            lpupo2l2,        6,        7,        8,        9,        0,  volumeD,
                                                               transp,   transp,   transp,   transp
   ),
 
@@ -107,8 +107,8 @@ shL2kcap,        z,        x,        c,        v,        b,     altL,
 // macro, unused,
        K,    nop,
 // left hand ...... ......... ......... ......... ......... ......... .........
-   btldr,      nop,     home,   arrowU,     end,    pageU,      esc,
-               nop,   arrowL,   arrowD,  arrowR,    pageD,   lpu3l3,
+   btldr,      nop,     home,   arrowU,     end,    pageU,   lpu3l3,
+               nop,   arrowL,   arrowD,  arrowR,    pageD,      nop,
   transp,       F1,       F2,       F3,      F4,       F5,      nop,
                                 transp,  transp,   transp,   transp,
 // right hand ..... ......... ......... ......... ......... ......... .........
@@ -124,8 +124,8 @@ shL2kcap,        z,        x,        c,        v,        b,     altL,
 // macro, unused,
        K,    nop,
 // left hand ...... ......... ......... ......... ......... ......... .........
-  transp,   transp,   transp,   transp,   transp,   transp,   transp,
-            transp,   transp,   transp,   transp,   transp,   lpo3l3,
+  transp,   transp,   transp,   transp,   transp,   transp,   lpo3l3,
+            transp,   transp,   transp,   transp,   transp,   transp,
   transp,   transp,   transp,   transp,   transp,   transp,   transp,
                                    ins,   transp,   transp,   transp,
 // right hand ..... ......... ......... ......... ......... ......... .........
