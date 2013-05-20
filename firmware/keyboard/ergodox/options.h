@@ -82,7 +82,7 @@
 // ----------------------------------------------------------------------------
 
 #define  OPT__USB__STR_MANUFACTURER  L"DIY"
-#define  OPT__USB__STR_PRODUCT       L"I <3 Jill Ergonomic Keyboard"
+#define  OPT__USB__STR_PRODUCT       L"DIY Programmer's Ergonomic"
 #define  OPT__USB__VENDOR_ID         0x1d50  // Openmoko, Inc.
 #define  OPT__USB__PRODUCT_ID        0x6028  // ErgoDox Ergonomic Keyboard
 

@@ -81,7 +81,7 @@ shL2kcap,        z,        x,        c,        v,        b,     altL,
                                                                  esc,        y,        u,        i,        o,        p,       bs,
                                                                quote,        h,        j,        k,        l,  semicol,
                                                             lpupo2l2,        n,        m,    comma,   period,    slash, shR2kcap,
-                                                                altR,    space,     guiR,    enter
+                                                            lpupo1l1,    space,     guiR,    enter
    ),
 
 // ............................................................................
@@ -92,12 +92,12 @@ shL2kcap,        z,        x,        c,        v,        b,     altL,
 // left hand ...... ......... ......... ......... ......... ......... .........
    tilde,   exclam,       at,    pound,   dollar,  percent,   lpo1l1,
             braceL,   braceR,    brktL,    brktR,  undersc,    grave,
-  transp,        1,        2,        3,        4,        5, lpupo2l2,
+  transp,        1,        2,        3,        4,        5,   transp,
                                 transp,   transp,   transp,   transp,   
 // right hand ..... ......... ......... ......... ......... ......... .........
                                                               transp,    caret,     amp , asterisk,     dash,    equal,  volumeU,
                                                                brktL,    brktR,   parenL,   parenR,  undersc,     plus,
-                                                            lpupo2l2,        6,        7,        8,        9,        0,  volumeD,
+                                                              transp,        6,        7,        8,        9,        0,  volumeD,
                                                               transp,   transp,   transp,   transp
   ),
 
